@@ -14,10 +14,6 @@ Array.prototype.findPlayerById = function (playerId: string): Player | undefined
   return this.find((player: Player) => player.player_id === playerId);
 };
 
-Array.prototype.findPlayerById = function (playerId: string): Player | undefined {
-  return this.find((player: Player) => player.player_id === playerId);
-};
-
 Array.prototype.searchByFullName = function (searchString: string): Player[] {
   if (!searchString.trim()) {
     return this;

@@ -4,7 +4,7 @@ import { createAppError } from '../utils/errorUtils';
 import { Player } from '../types/Player';
 import * as playersService from '../services/playersService';
 
-export const getPlayersWithPagination = async (req: Request, res: Response, next: NextFunction) => {
+const getPlayersWithPagination = async (req: Request, res: Response, next: NextFunction) => {
     
     const page = parseInt(req.query.page as string);
     const limit = parseInt(req.query.limit as string);
@@ -22,7 +22,7 @@ export const getPlayersWithPagination = async (req: Request, res: Response, next
     }
 };
 
-export const getPlayerById = async (req: Request, res: Response, next: NextFunction) => {
+const getPlayerById = async (req: Request, res: Response, next: NextFunction) => {
     const playerId = req.params.player_id;
 
     if (!playerId) {
@@ -41,3 +41,5 @@ export const getPlayerById = async (req: Request, res: Response, next: NextFunct
         next(error);
     }
 };
+
+export { getPlayersWithPagination, getPlayerById };
