@@ -2,11 +2,11 @@
 
 This demo project consists of two main components:
 
-####Backend
+#### Backend
 
 An Express.js application that provides API endpoints for managing player data in the /PlayerProxyService directory. It functions as a proxy, exposing data from https://api.sleeper.app/v1/players/nfl
 
-####Frontend
+#### Frontend
 
 A React Native mobile application that interacts with the backend API in /PlayersApp
 
@@ -27,9 +27,9 @@ Before starting, ensure you have the following installed on your machine:
 
 ## Installation
 
-###Backend
+### Backend
 
-#####Install dependencies, build and run:
+##### Install dependencies, build and run:
 
 `cd PlayerProxyService`
 
@@ -43,21 +43,21 @@ Before starting, ensure you have the following installed on your machine:
 
 `curl -X GET -i http://localhost:3000/api/players/1`
 
-###Frontend
+### Frontend
 
-#####Install dependencies, build and run:
+##### Install dependencies, build and run:
 
 `cd PlayersApp`
 
 `npm install`
 
-#####Run on iOS
+##### Run on iOS
 
 `cd PlayersApp`
 
 `npm run run-ios`
 
-######install coapods dependecies and run in Xcode (optionally)
+###### Install coapods dependecies and run in Xcode (optionally)
 
 `cd PlayersApp/ios`
 
@@ -69,13 +69,13 @@ Before starting, ensure you have the following installed on your machine:
 * setup Signing application manually in Xcode 
 * run applicaiton on simulator
 
-#####Run on Android
+##### Run on Android
 
 `cd PlayersApp`
 
 `npm run run-ios`
 
-#####Run unit tests
+##### Run unit tests
 
 `cd PlayersApp`
 
