@@ -10,7 +10,7 @@ A React Native mobile application that interacts with the backend API in /Player
 
 ![App print screen](https://drive.google.com/uc?export=download&id=1To5sy9XZ-ogGVPoZh5PP32lKBLiSMNLH)
 
-[App screen cast](https://drive.google.com/drive/folders/1GNhMRwnK-ba41ZDpVwcranvxvFb2e1_0?hl=pl)
+[App screen cast](https://drive.google.com/file/d/1xlLYAcy1gLtfTGQkGfKsPTSpzf47IjJU/view?usp=sharing)
 
 ## Prerequisites
 
