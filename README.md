@@ -2,10 +2,12 @@
 
 This demo project consists of two main components:
 
-#####Backend
+####Backend
+
 An Express.js application that provides API endpoints for managing player data in the /PlayerProxyService directory. It functions as a proxy, exposing data from https://api.sleeper.app/v1/players/nfl
 
-#####Frontend
+####Frontend
+
 A React Native mobile application that interacts with the backend API in /PlayersApp
 
 ![App print screen](https://drive.google.com/uc?export=download&id=1To5sy9XZ-ogGVPoZh5PP32lKBLiSMNLH)
