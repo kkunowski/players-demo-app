@@ -8,6 +8,10 @@ An Express.js application that provides API endpoints for managing player data i
 #####Frontend
 A React Native mobile application that interacts with the backend API in /PlayersApp
 
+![App print screen](https://drive.google.com/uc?export=download&id=1To5sy9XZ-ogGVPoZh5PP32lKBLiSMNLH)
+
+[App screen cast](https://drive.google.com/drive/folders/1GNhMRwnK-ba41ZDpVwcranvxvFb2e1_0?hl=pl)
+
 ## Prerequisites
 
 Before starting, ensure you have the following installed on your machine:
