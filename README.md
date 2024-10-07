@@ -1,18 +1,26 @@
 # Project Overview
 
-This demo project consists of two main components:
+This demo project includes a sample backend and mobile applications, featuring two implementations of the mobile frontend: one using React Native for cross-platform development and the other as a native SwiftUI application. Both frontend applications offer similar functionality.
 
 #### Backend
 
 An Express.js application that provides API endpoints for managing player data in the /PlayerProxyService directory. It functions as a proxy, exposing data from https://api.sleeper.app/v1/players/nfl
 
-#### Frontend
+#### Frontend (React Native)
 
 A React Native mobile application that interacts with the backend API in /PlayersApp
 
 ![App print screen](https://drive.google.com/uc?export=download&id=1To5sy9XZ-ogGVPoZh5PP32lKBLiSMNLH)
 
 [App screen cast](https://drive.google.com/file/d/1xlLYAcy1gLtfTGQkGfKsPTSpzf47IjJU/view?usp=sharing)
+
+#### Frontend (iOS native application)
+
+An iOS native application demonstrating the use of SwiftUI, Combine, and the MVVM-C (Model-View-ViewModel-Coordinator) architecture in the /PlayersNativeiOSApp
+
+![App print screen](https://drive.google.com/uc?export=download&id=1AqLzqEm_Itp4AkIxYU1Y-rGXrwM6E7bW)
+
+[App screen cast](https://drive.google.com/file/d/1UzVDvBHCiMw8qddqyi696xTSW2DcTkcw/view?usp=sharing)
 
 ## Prerequisites
 
@@ -21,7 +29,7 @@ Before starting, ensure you have the following installed on your machine:
 * **Node.js** (version 20 or higher)
 * **npm** (comes with Node.js)
 * **CocoaPods** (for iOS builds of React Native)
-* **Xcode** (for iOS builds of React Native)
+* **Xcode** (for iOS builds of React Native and iOS navite application)
 * **Java Development Kit (JDK)** (for android builds of React Native)
 * **Android Studio** (for android builds of React Native)
 
@@ -43,7 +51,7 @@ Before starting, ensure you have the following installed on your machine:
 
 `curl -X GET -i http://localhost:3000/api/players/1`
 
-### Frontend
+### Frontend (React Native)
 
 ##### Install dependencies, build and run:
 
@@ -80,3 +88,11 @@ Before starting, ensure you have the following installed on your machine:
 `cd PlayersApp`
 
 `npm run test`
+
+### Frontend (iOS native applications)
+
+`cd PlayersNativeiOSApp`
+
+`open PlayersDemo.xcodeproj`
+
+run applicaiton in Xcode
