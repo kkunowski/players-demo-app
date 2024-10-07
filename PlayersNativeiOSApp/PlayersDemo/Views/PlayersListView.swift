@@ -1,15 +1,20 @@
 import SwiftUI
 
 struct PlayersListView: View {
+    
+    @EnvironmentObject var coordinator: AppCoordinator
+    
     @ObservedObject var viewModel: PlayersViewModel
 
     var body: some View {
-        PaginatedLazyListView(viewModel: viewModel) { player in
-            NavigationLink(destination: PlayerDetailView(player: player)) {
-                PlayerRowView(player: player)
-            }
-        }
-    }
+           PaginatedLazyListView(viewModel: viewModel) { player in
+               Button(action: {
+                   coordinator.showPlayerDetail(player: player)
+               }) {
+                   PlayerRowView(player: player)
+               }
+           }
+       }
 }
 
 struct PlayerRowView: View {
