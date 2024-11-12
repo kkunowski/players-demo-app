@@ -1,9 +1,13 @@
 # Project Overview
 
 This demo project includes a sample backend and three mobile applications, each showcasing different frontend implementations:
-   * **React Native: A cross-platform application providing a unified experience on both iOS and Android.
-   * **iOS Native: A dedicated SwiftUI application built specifically for iOS, demonstrating native functionality.
-   * **Flutter: A single codebase application targeting both iOS and Android, leveraging Flutter’s UI framework for consistent design across platforms
+   
+   * React Native: A cross-platform application providing a unified experience on both iOS and Android.
+
+   * iOS Native: A dedicated SwiftUI application built specifically for iOS, demonstrating native functionality.
+
+   * Flutter: A single codebase application targeting both iOS and Android, leveraging Flutter’s UI framework for consistent design across platforms
+
 All three applications offer similar functionality, allowing for comparisons across different development approaches and frameworks.
 
 #### Backend
@@ -124,8 +128,8 @@ run applicaiton in Xcode
 
 `flutter pub get`
 
-* **iOS
+* iOS
 `flutter run -d ios`
 
-* **Android
+* Android
 `flutter run -d android`
