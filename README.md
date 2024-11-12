@@ -48,6 +48,7 @@ Before starting, ensure you have the following installed on your machine:
 * **Xcode** (for iOS builds of React Native and iOS navite application)
 * **Java Development Kit (JDK)** (for android builds of React Native)
 * **Android Studio** (for android builds of React Native)
+* **Install Flutter SDK: Follow the instructions on flutter.dev to install Flutter.
 
 ## Installation
 
@@ -114,15 +115,6 @@ Before starting, ensure you have the following installed on your machine:
 run applicaiton in Xcode
 
 ### Frontend (Flutter applications)
-
-#### Prerequisites
-
-* **Install Flutter SDK**: Follow the instructions on [flutter.dev](https://flutter.dev/docs/get-started/install) to install Flutter.
-* **Set Up Environment**:
-   - **macOS/iOS**: Install Xcode and set up the Xcode Command Line Tools.
-   - **Android**: Install Android Studio and set up the Android SDK.
-
-#### Build and run
 
 `cd PlayersFlutterApp/players_app`
 
