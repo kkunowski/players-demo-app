@@ -1,6 +1,10 @@
 # Project Overview
 
-This demo project includes a sample backend and mobile applications, featuring two implementations of the mobile frontend: one using React Native for cross-platform development and the other as a native SwiftUI application. Both frontend applications offer similar functionality.
+This demo project includes a sample backend and three mobile applications, each showcasing different frontend implementations:
+   * **React Native: A cross-platform application providing a unified experience on both iOS and Android.
+   * **iOS Native: A dedicated SwiftUI application built specifically for iOS, demonstrating native functionality.
+   * **Flutter: A single codebase application targeting both iOS and Android, leveraging Flutter’s UI framework for consistent design across platforms
+All three applications offer similar functionality, allowing for comparisons across different development approaches and frameworks.
 
 #### Backend
 
@@ -21,6 +25,14 @@ An iOS native application demonstrating the use of SwiftUI, Combine, and the MVV
 ![App print screen](https://drive.google.com/uc?export=download&id=1AqLzqEm_Itp4AkIxYU1Y-rGXrwM6E7bW)
 
 [App screen cast](https://drive.google.com/file/d/1UzVDvBHCiMw8qddqyi696xTSW2DcTkcw/view?usp=sharing)
+
+#### Frontend (Flutter application)
+
+This Flutter app, located in PlayersFlutterApp, demonstrates a Provider-based, MVVM-like architecture to separate logic and UI, ensuring modular and testable code. Built with Flutter’s cross-platform capabilities, the app can run on iOS, Android, macOS, and the web, providing a consistent experience across multiple platforms.
+
+![App print screen](https://drive.google.com/uc?export=download&id=1hLxodAhmILVrXHubvOriHNXoW7xMFU0k)
+
+[App screen cast](https://drive.google.com/file/d/1dgzlRYFwQS6c7mAfEF_s9iZClON3zBeh/view?usp=sharing)
 
 ## Prerequisites
 
@@ -96,3 +108,24 @@ Before starting, ensure you have the following installed on your machine:
 `open PlayersDemo.xcodeproj`
 
 run applicaiton in Xcode
+
+### Frontend (Flutter applications)
+
+#### Prerequisites
+
+* **Install Flutter SDK**: Follow the instructions on [flutter.dev](https://flutter.dev/docs/get-started/install) to install Flutter.
+* **Set Up Environment**:
+   - **macOS/iOS**: Install Xcode and set up the Xcode Command Line Tools.
+   - **Android**: Install Android Studio and set up the Android SDK.
+
+#### Build and run
+
+`cd PlayersFlutterApp/players_app`
+
+`flutter pub get`
+
+* **iOS
+`flutter run -d ios`
+
+* **Android
+`flutter run -d android`
