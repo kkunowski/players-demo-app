@@ -48,7 +48,7 @@ Before starting, ensure you have the following installed on your machine:
 * **Xcode** (for iOS builds of React Native and iOS navite application)
 * **Java Development Kit (JDK)** (for android builds of React Native)
 * **Android Studio** (for android builds of React Native)
-* **Install Flutter SDK: Follow the instructions on flutter.dev to install Flutter.
+* **Install Flutter SDK** (Follow the instructions on flutter.dev to install Flutter)
 
 ## Installation
 
